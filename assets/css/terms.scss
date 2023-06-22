@@ -13,10 +13,11 @@
     }
 
     li:not(:empty):before {
-      content: '-';
+      content: '•';
       position: absolute;
       left: -20px;
       color: $accent;
+      font-weight: bold;
     }
   }
 }
